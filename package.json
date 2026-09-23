@@ -1,0 +1,25 @@
+{
+  "name": "npc-schedule",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test": "vitest run",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@koa/router": "^13.1.0",
+    "better-sqlite3": "^11.8.1",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/koa__router": "^12.0.4",
+    "@types/koa": "^2.15.0",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
